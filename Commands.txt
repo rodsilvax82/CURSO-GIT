@@ -1,0 +1,61 @@
+﻿git config --global user.name "rodsilvax82"
+git config --global user.email "rodsilvaxredes82@gmail.com"
+git init
+git status
+git add README2.md.txt
+git commit -m "Adiciona arquivo README2.md.txt"
+git remote add origin https://github.com/rodsilvax82/MyFirstRepository.git
+git push -u origin master
+
+-----------------------------------COMMANDS GIT ALURA--------------------
+-- GERAR KEY
+ssh-keygen -t rsa -C "seu_email@provedor.com"
+
+---CLONAR REPOSITORIO
+git clone https://github.com/jcfonsecagit/repositorio.git
+
+---VISUALIZAR TAG
+git tag
+
+---VISUALIZAR PROJETO COM TAG ANTERIOR
+git checkout v0.1
+
+---VISUALIZAR DIFERENCAS ENTRE TAGS
+git diff v0.1 v0.2
+
+---VISUALIZAR QUEM FEZ AS ALTERAÇÕES DO ARQUIVO
+git blame index.html
+
+---INICIALIZAR REPOSITORIO LOCAL
+git init
+
+---VERIFICAR ARQUIVOS QUE PERNTECEM AO REPOSITORIO
+git ls-files
+
+---VERIFICAR STATUS DOS ARQUIVOS LOCAIS
+git status
+
+--ADD ARQUIVO PARA SER RASTREADO - TRACK
+git add index.html
+git add arquivo1 arquivo2
+git add caminhoDeUmDiretorio
+git add .
+
+--MAPEAR USUARIO E E-MAIL DO COMMIT
+git config --global user.name "João Carlos Fonseca"
+git config --global user.email "jcfonsecagit@gmail.com"
+
+--REALIZAR COMMIT COM MENSAGEM
+git commit -m "Início do projeto"
+
+--INDICAR REPOSITORIO REMORO - GIT
+git remote add origin https://github.com/rodsilvax82/CURSO-GIT.git
+
+--ENVIAR ARQUIVOS PARA O REPOSITORIO
+git push origin master
+
+---CLONAR REPOSITORIO
+git clone https://github.com/rodsilvax82/CURSO-GIT.git meuprojeto
+
+---COPIAR PROJETO PARA REPOSITORIO LOCAL
+git pull origin master
