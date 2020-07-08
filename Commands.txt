@@ -92,3 +92,4 @@ git mergetool -t nome_do_programa
 git rebase master
 git rebase --continue
 git rebase --skip
+git rebase --abort
