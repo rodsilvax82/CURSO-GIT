@@ -67,6 +67,7 @@ git whatchanged -p
 ---CRIAR UMA BRANCH
 git branch design
 git branch -t design origin/design
+git checkout -b desenvolvimento
 
 ---DELETAR UMA BRANCH
 git push -d origin design
@@ -87,3 +88,7 @@ git fetch origin
 --VERIFICA LISTA DE SOFTWARE PARA MERGE
 git mergetool -t nome_do_programa
 
+-- FAZER MERGE COM BASE EM OUTRA BRANCH
+git rebase master
+git rebase --continue
+git rebase --skip
