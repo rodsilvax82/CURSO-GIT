@@ -59,3 +59,31 @@ git clone https://github.com/rodsilvax82/CURSO-GIT.git meuprojeto
 
 ---COPIAR PROJETO PARA REPOSITORIO LOCAL
 git pull origin master
+
+---VISUALIZAR COMMITS
+git log
+git whatchanged -p
+
+---CRIAR UMA BRANCH
+git branch design
+git branch -t design origin/design
+
+---DELETAR UMA BRANCH
+git push -d origin design
+git push origin :design
+
+---VISUALIZAR BRANCHES
+git branch
+git branch -r
+git branch -a
+
+---TROCAR DE BRANCH
+git checkout design
+git checkout -t origin/design
+
+--VERIFICAR ATUALIZAÇÕES DO REPOSITORIO
+git fetch origin  
+
+--VERIFICA LISTA DE SOFTWARE PARA MERGE
+git mergetool -t nome_do_programa
+
