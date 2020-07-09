@@ -111,10 +111,22 @@ git stash
 git stash pop
 git stash pop stash@{1}
 git stash list
+git stash apply
+git stash drop
 
 --DESCARTAR COMMIT
 git reset hash
 git revert -n [hash_do_commit]
+git reset --hard
+git reset --soft
+git reset HEAD~1
+git reset --hard HEAD~1
+
+--PERCORRER COMMIT PARA ENCONTRAR BUGS
+git bisect start
+git bisect bad HEAD
+git bisect good HASH
+git show 15081e8453340320b26d01c90e404d5ebddb6aaa
 
 
 
