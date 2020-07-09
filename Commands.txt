@@ -93,3 +93,17 @@ git rebase master
 git rebase --continue
 git rebase --skip
 git rebase --abort
+
+--DESFAZER ALTERAÇÃO QUE ESTA NO HEAD
+git diff
+
+--DESCARTAR ALTERAÇÃO TOTAL "WORK DIRECTORY"
+git checkout index.html
+
+--TRAZER APENAS UM ARQUIVO DE OUTRA BRANCH
+git checkout master index.html
+
+--DESCARTAR ALTERAÇÕS DO INDEX
+git reset HEAD index.html
+
+
