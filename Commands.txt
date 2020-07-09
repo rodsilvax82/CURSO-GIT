@@ -106,4 +106,7 @@ git checkout master index.html
 --DESCARTAR ALTERAÇÕS DO INDEX
 git reset HEAD index.html
 
+--RECUPERAR ALTERAÇÕES
+git stash
+git stash pop
 
