@@ -109,4 +109,7 @@ git reset HEAD index.html
 --RECUPERAR ALTERAÇÕES DO ULTIMO COMMIT S/PUSH
 git stash
 git stash pop
+git stash pop stash@{1}
+git stash list
+
 
